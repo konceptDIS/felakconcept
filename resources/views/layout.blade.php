@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/css/woocommerce.css" />
     <link rel="stylesheet" href="/css/royal-preload.css" />
     <!-- REVOLUTION SLIDER CSS -->
-    <link rel="stylesheet" type="text/css" href="/plugins/revolution/revolution/css/settings.css">   
+    <link rel="stylesheet" type="text/css" href="/plugins/revolution/revolution/css/settings.css">
     <!-- REVOLUTION NAVIGATION STYLE -->
     <link rel="stylesheet" type="text/css" href="/plugins/revolution/revolution/css/navigation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,12 +33,12 @@
                         <div class="row">
                             <div class="col-md-3 align-self-center">
                                 <div class="site-logo">
-                                    <a href="index.html">
+                                    <a href="{{route('home')}}">
                                         <img src="/images/logodark.png" alt="">
                                     </a>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,6 @@
                                             <ul class="menu">
                                                 <li class="">
                                                     <a href="{{route('home')}}">Home</a>
-                                                    
                                                 </li>
                                                 <li class=" current-menu-item"><a href="{{route('about')}}">About</a>
                                                 </li>
@@ -77,7 +76,7 @@
                                     <div class="octf-col cta-col text-right">
                                     <!-- Call To Action -->
                                         <div class="octf-btn-cta">
-                                            
+
                                             <div class="octf-search octf-cta-header">
                                                 <div class="toggle_search octf-cta-icons">
                                                     <i class="ot-flaticon-search-1"></i>
@@ -89,7 +88,7 @@
                                                             <input type="search" class="search-field" placeholder="Search..." value="" name="s">
                                                             <button type="submit" class="search-submit"><i class="ot-flaticon-search-1"></i></button>
                                                         </form>
-                                                    </div>                                  
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -99,8 +98,8 @@
                                                     <i class="ot-flaticon-menu"></i>
                                                 </div>
                                             </div>
-                                            
-                                        </div>                              
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -108,13 +107,13 @@
                     </div>
                 </div>
             </div>
-                
+
             <div class="header_mobile">
                 <div class="container">
                     <div class="row">
                         <div class="col-5">
                             <div class="mobile_logo">
-                                <a href="index.html">
+                                <a href="{{route('home')}}">
                                     <img src="/images/04_Full_White.svg" alt="felak">
                                 </a>
                             </div>
@@ -138,7 +137,7 @@
                                                 <input type="search" class="search-field" placeholder="Search..." value="" name="s">
                                                 <button type="submit" class="search-submit"><i class="ot-flaticon-search-1"></i></button>
                                             </form>
-                                        </div>                                  
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="octf-menu-mobile octf-cta-header text-left">
@@ -152,25 +151,25 @@
                                             <div class="mobile-nav">
                                                 <ul id="menu-mobile-main-menu" class="mobile_mainmenu none-style">
                                                     <li class="">
-                                                        <a href="index.html">Home</a>
+                                                        <a href="{{route('home')}}">Home</a>
                                                     </li>
-                                                    <li class=""><a href="about-us.html">About Us</a>
-                                                    </li>
-                                                    <li class="menu-item-has-children"><a href="projects.html">Services</a>
+                                                    <li class=" current-menu-item"><a href="{{route('about')}}">About</a>
                                                     </li>
                                                     <li class="menu-item-has-children"><a href="#">Services</a>
                                                         <ul class="sub-menu">
-                                                            <li><a href="marine.html">Marine Advisory Services And Consultancy</a></li>
-                                                            <li><a href="port.html">Port Masterplan Development</a></li>
-                                                            <li><a href="water.html">Total Water Management And Solution</a></li>
-                                                            <li><a href="design.html">Planning, Design And Architecture</a></li>
-                                                            <li><a href="procurement.html">Procurement And General Services</a></li>
-                                                            <li><a href="training.html">Training And Development</a></li>
+                                                            <li><a href="{{route('marine')}}">Marine Advisory Services And Consultancy</a></li>
+                                                            <li><a href="{{route('port')}}">Port Masterplan Development</a></li>
+                                                            <li><a href="{{route('water')}}">Total Water Management And Solution</a></li>
+                                                            <li><a href="{{route('design')}}">Planning, Design And Architecture</a></li>
+                                                            <li><a href="{{route('procurement')}}">Procurement And General Services</a></li>
+                                                            <li><a href="{{route('training')}}">Training And Development</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li class=""><a href="HSE.html">HSE</a>
+                                                    <li class=""><a href="{{route('project')}}">Projects</a>
                                                     </li>
-                                                    <li class="current-menu-item"><a href="contact.html">Contact Us</a></li>
+                                                    <li class=""><a href="{{route('hse')}}">HSE</a>
+                                                    </li>
+                                                    <li><a href="{{route('contact')}}">Contact Us</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -181,7 +180,7 @@
                     </div>
                 </div>
             </div>
-        
+
 </header>
  <div id="side-panel" class="side-panel">
             <a href="#" class="side-panel-close"><i class="ot-flaticon-cancel"></i></a>
@@ -190,7 +189,7 @@
                     <div class="the-logo">
                         <a href="index-html.html">
                             <img src="/images/logodark.png" alt="Maxbizz">
-                        </a>                    
+                        </a>
                     </div>
                     <div class="space-30"></div>
                     <div class="site-panel-desc">
@@ -297,7 +296,7 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mb-5 mb-xl-0">
                     <h6 class="widget-footer-title">About us</h6>
-                    <p>We make this belief a reality by putting clients first, leading with exceptional ideas, doing the right thing, and giving back.</p>
+                    <p>Felak Concept Limited (FCL) is an expert consortium offering a range of world class consultancy, training and project management services to private and public sector clients.</p>
                     <div class="space-5"></div>
                     <div class="space-3"></div>
                     <div class="ft-list-icon">
@@ -345,11 +344,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 mb-5 mb-lg-0">
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mb-5 mb-lg-0">
                     <h6 class="widget-footer-title">our location</h6>
-                    <img src="images/map-footer-home4.png" alt="">
-                </div>
-                <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 align-self-end">
                     <div class="footer-locotion">
                         <div class="footer-contact">
                             <div class="footer-contact-icon phone-info-icon">
@@ -376,6 +372,18 @@
                             </div>
                         </div>
                     </div>
+                    {{-- <img src="images/map-footer-home4.png" alt=""> --}}
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <h6 class="widget-footer-title">Our Services</h6>
+                    <ul class="footer-nav">
+                        <li><a href="{{route('marine')}}">Marine Advisory Services And Consultancy</a></li>
+                        <li><a href="{{route('port')}}">Port Masterplan Development</a></li>
+                        <li><a href="{{route('water')}}">Total Water Management And Solution</a></li>
+                        <li><a href="{{route('design')}}">Planning, Design And Architecture</a></li>
+                        <li><a href="{{route('procurement')}}">Procurement And General Services</a></li>
+                        <li><a href="{{route('training')}}">Training And Development</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="space-100"></div>
@@ -419,7 +427,7 @@
         //Preloader
         Royal_Preloader.config({
           mode: "logo",
-          logo: "images/logo.svg",
+          logo: "images/logodark.png",
           logo_size: [160, 75],
           showProgress: true,
           showPercentage: true,

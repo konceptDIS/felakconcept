@@ -1,6 +1,6 @@
 (function( $ ) {
     "use strict";
-    
+
     $('.woocommerce-form-coupon-toggle .showcoupon').on("click", function(){
         $(this).toggleClass( "active" );
         if ($(this).hasClass( "active" )) {
@@ -9,22 +9,22 @@
             $('.woocommerce-form-coupon').stop(true, true).slideUp();
         }
     });
-    /* ========================================== 
+    /* ==========================================
 	Sticky Header 1
 	========================================== */
 	$(window).on("scroll", function(){
 		if ( $( '#site-header' ).hasClass( "sticky-header" ) ) {
-			var site_header = $('#site-header').outerHeight() + 30;	
-			
-		    if ($(window).scrollTop() >= site_header) {	    	
-		        $('.sticky-header .main-header, .mobile-header-sticky .header_mobile').addClass('is-stuck');	        
+			var site_header = $('#site-header').outerHeight() + 30;
+
+		    if ($(window).scrollTop() >= site_header) {
+		        $('.sticky-header .main-header, .mobile-header-sticky .header_mobile').addClass('is-stuck');
 		    }else {
-		        $('.sticky-header .main-header, .mobile-header-sticky .header_mobile').removeClass('is-stuck');		              
+		        $('.sticky-header .main-header, .mobile-header-sticky .header_mobile').removeClass('is-stuck');
 		    }
 		}
 	});
 
-    /* ========================================== 
+    /* ==========================================
     Search on Header
     ========================================== */
     $('.toggle_search').on("click", function(){
@@ -51,7 +51,7 @@
     }
 
     $('#panel-btn, .side-panel-close, .panel-overlay').on('click', panel_handler);
-    /* ========================================== 
+    /* ==========================================
     Back To Top
     ========================================== */
     if ($('#back-to-top').length) {
@@ -73,7 +73,7 @@
             $('html,body').animate({
                 scrollTop: 0
             }, 700);
-        }); 
+        });
     }
 
     /* Counter */
@@ -85,7 +85,7 @@
                 during  = parseInt( $this.attr('data-time') ),
                 topOfWindow = $(window).scrollTop();
 
-            if ( pos_y < topOfWindow ) {    
+            if ( pos_y < topOfWindow ) {
                 $({
                     countNum: $this.text()
                 }).animate({
@@ -111,7 +111,7 @@
                 during  = parseInt( $this.attr('data-time') ),
                 topOfWindow = $(window).scrollTop();
 
-            if ( pos_y < topOfWindow ) {    
+            if ( pos_y < topOfWindow ) {
                 $({
                     countNum: $this.text()
                 }).animate({
@@ -129,7 +129,7 @@
                 });
             }
         });
-        
+
         $('.ot-progress').each(function() {
             var pos_y = $(this).offset().top;
             var value = $(this).find(".progress-bar").data('percent');
@@ -194,7 +194,7 @@
             var progressEnd = parseInt(bar.data('percent'));
 
             line.css("width", (bar.outerWidth() * (progressEnd / 100)) + "px");
-        
+
         });
     });
 
@@ -300,8 +300,8 @@
         });
     }
 
-    
-    
+
+
     $(".link-image-action").magnificPopup({
         type: "image"
     });
@@ -314,25 +314,25 @@
         var selector = $(this),
             colHandle = selector.find('.features-service-item'),
             bgHandle = selector.find('.features-service-img');
-        
+
             colHandle.each(function(){
                 if ($(this).data('default') == 'yes') {
                     bgHandle.removeClass('hover');
                     $(this).next().addClass('hover');
                 }
             });
-           
+
                 colHandle.hover(
                     function() {
                         bgHandle.removeClass('hover');
                         $(this).next().addClass('hover');
                     }
                 );
-            
-            
+
+
     });
 
-    $(window).load( function () {  
+    $(window).load( function () {
         var wraper = $('.features-service-wrapper');
         if(wraper.length){
             wraper.each(function () {
@@ -359,15 +359,15 @@
                         }
                     });
             });
-        }  
+        }
     });
 
     /*Portfolio Filter*/
     $(window).load( function () {
         if( $('#projects_grid').length > 0 ){
-            var $container = $('#projects_grid'); 
-            $container.isotope({ 
-                itemSelector : '.project-item', 
+            var $container = $('#projects_grid');
+            $container.isotope({
+                itemSelector : '.project-item',
                 layoutMode : 'masonry'
             });
 
@@ -385,25 +385,25 @@
                     $this.addClass('selected');
 
                 var selector = $(this).attr('data-filter');
-                    $container.isotope({ 
-                        filter: selector 
+                    $container.isotope({
+                        filter: selector
                     });
                 return false;
             });
-        };    
+        };
     });
 
 
-    
+
         // Initialize popup as usual
-        $('.image-link').magnificPopup({ 
+        $('.image-link').magnificPopup({
             type: 'image',
             mainClass: 'mfp-with-zoom', // this class is for CSS animation below
 
             zoom: {
                 enabled: true, // By default it's false, so don't forget to enable it
                 duration: 300, // duration of the effect, in milliseconds
-                easing: 'ease-in-out', // CSS transition easing function 
+                easing: 'ease-in-out', // CSS transition easing function
 
                 // The "opener" function should return the element from which popup will be zoomed in
                 // and to which popup will be scaled down
@@ -412,7 +412,7 @@
                   // openerElement is the element on which popup was initialized, in this case its <a> tag
                   // you don't need to add "opener" option if this code matches your needs, it's defailt one.
                   return openerElement.is('img') ? openerElement : openerElement.find('img');
-                }        
+                }
             },
             image: {
                 // options for image content type
@@ -567,8 +567,8 @@
         if (otSliderOutside.length > 0 ) {
             otSliderOutside.each(function() {
                 var screen_width = $(window).width();
-                if ( screen_width > 1200 ) {                
-                    var margin = screen_width - 1170;                
+                if ( screen_width > 1200 ) {
+                    var margin = screen_width - 1170;
                 } else {
                     var margin = 0;
                 }
@@ -678,14 +678,14 @@
                 /* Go to the previous item */
                 customNav.find('.owl-prev').on("click", function () {
                     otOwl.trigger('prev.owl.carousel', [300]);
-                });  
+                });
             }
             return false;
         }
 
         $('.image-box-custom-nav').each( function () {
             otOutside();
-            var 
+            var
                 selector     = $(this),
                 $loop     = selector.data('loop'),
                 $auto     = selector.data('auto'),
@@ -763,12 +763,12 @@
     $('.team-social > span').on('click', function(){
         $(this).parent().toggleClass('active');
     });
-     
+
     $(window).load(function(){
     $('.projects-grid').each( function(){
-        var $container = $(this); 
-        $container.isotope({ 
-            itemSelector : '.project-item', 
+        var $container = $(this);
+        $container.isotope({
+            itemSelector : '.project-item',
             animationEngine : 'css',
         });
 
@@ -786,14 +786,49 @@
                 $this.addClass('selected');
 
             var selector = $(this).attr('data-filter');
-                $container.isotope({ 
-                    filter: selector 
+                $container.isotope({
+                    filter: selector
                 });
             return false;
         });
     });
     });
 
+    thmOwlInit();
 
 })( jQuery );
+
+function thmOwlInit() {
+    // owl slider
+    let cleenheartsowlCarousel = $(".cleenhearts-owl__carousel");
+    if (cleenheartsowlCarousel.length) {
+      cleenheartsowlCarousel.each(function () {
+        let elm = $(this);
+        let options = elm.data("owl-options");
+        let thmOwlCarousel = elm.owlCarousel(
+          "object" === typeof options ? options : JSON.parse(options)
+        );
+        elm.find("button").each(function () {
+          $(this).attr("aria-label", "carousel button");
+        });
+      });
+    }
+    let cleenheartsowlCarouselNav = $(".cleenhearts-owl__carousel--custom-nav");
+    if (cleenheartsowlCarouselNav.length) {
+      cleenheartsowlCarouselNav.each(function () {
+        let elm = $(this);
+        let owlNavPrev = elm.data("owl-nav-prev");
+        let owlNavNext = elm.data("owl-nav-next");
+        $(owlNavPrev).on("click", function (e) {
+          elm.trigger("prev.owl.carousel");
+          e.preventDefault();
+        });
+
+        $(owlNavNext).on("click", function (e) {
+          elm.trigger("next.owl.carousel");
+          e.preventDefault();
+        });
+      });
+    }
+  }
 

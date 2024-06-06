@@ -2,7 +2,7 @@
 
 @section('content')
 <div id="page" class="site">
-    
+
 <section>
             <div class="container">
                 <div class="space-90"></div>
@@ -54,10 +54,10 @@
                                 <span class="list-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29.107 29.107"><g>    <g id="c147_full_moon">     <g>         <path d="M14.554,0C6.561,0,0,6.562,0,14.552c0,7.996,6.561,14.555,14.554,14.555c7.996,0,14.553-6.559,14.553-14.555     C29.106,6.562,22.55,0,14.554,0z"></path>      </g>    </g>    <g id="Capa_1_14_"> </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg></span>
                                 <span class="list-text">We consistently adhere to all local, national and international policies in all our work environment.</span>
                             </li>
-                           
-                        </ul> 
+
+                        </ul>
                         <div class="space-40"></div>
-                    
+
                     </div>
                     <div class="col-xl-3 col-lg-4 widget-area">
                         <aside class="widget widget_categories">
@@ -105,28 +105,11 @@
                                 </div>
                             </div>
                         </aside>
-                        
+
                     </div>
                 </div>
                 <div class="space-90"></div>
                 <div class="space-100"></div>
-            </div>
-        </section>
-        <section class="cta-main">
-            <div class="container">
-                <div class="space-80"></div>
-                <div class="row align-items-center">
-                    <div class="col-lg-8 mb-5 mb-lg-0">
-                        <h2>Searching for Exceptional Procurement and Consulting Services?</h2>
-                        <p class="text-white">We embrace and celebrate diverse viewpoints to elevate our firm, benefit our clients, and strengthen our team.</p>
-                    </div>
-                    <div class="col-lg-4 text-lg-right">
-                        <div class="ot-button">
-                            <a href="contact.html" class="octf-btn octf-btn-light">get in touch</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="space-80"></div>
             </div>
         </section>
 </div>

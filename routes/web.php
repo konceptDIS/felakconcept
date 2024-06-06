@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('home');
 }) ->name('home');
 
@@ -56,16 +56,3 @@ Route::get('/procurement', function () {
 Route::get('/contact', function () {
     return view('contact');
 }) ->name('contact');
-
-
-
-
-
-
-
-
-
-
-Route::get('/', function () {
-    return view('welcome');
-});

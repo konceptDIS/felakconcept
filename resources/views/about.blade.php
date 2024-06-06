@@ -10,7 +10,7 @@
                         <ul id="breadcrumbs" class="breadcrumbs none-style">
                             <li><a href="index.html">Home</a></li>
                             <li class="active">About Us</li>
-                        </ul>    
+                        </ul>
                     </div>
                     <div class="space-110"></div>
                     <div class="space-60"></div>
@@ -35,11 +35,11 @@
                         <div class="space-20"></div>
                         <div class="space-4"></div>
                         <p>Felak Concept Limited (FCL) is an expert consortium offering a range of world class consultancy, training and project management services to private and public sector clients. Established in 2000, FCL has the requisite experience and a team of vastly knowledgeable experts in services and consultancy. The formation of FCL was driven by the need to provide strategic solutions to identified challenges in project management and professional service delivery. Since inception till date, FCL has delivered varied services in offshore and onshore procedures. We have also developed a positive reputation for years with proven excellent consultancy and advisory services.</p>
-                        
+
                     </div>
                 </div>
                 <div class="space-60 d-none d-md-block"></div>
-                
+
             </div>
         </section>
         <section>
@@ -70,7 +70,7 @@
                         <div class="number-left">
                             <div class="ot-counter icounter">
                                 <div class="c-number">
-                                    <span class="num" data-to="350" data-time="2000">0</span>
+                                    <span class="num" data-to="53" data-time="2000">0</span>
                                 </div>
                                 <h6>Trusted <br>Clients</h6>
                             </div>
@@ -90,7 +90,7 @@
                         <div class="number-left">
                             <div class="ot-counter icounter">
                                 <div class="c-number">
-                                    <span class="num" data-to="23" data-time="2000">0</span>
+                                    <span class="num" data-to="20" data-time="2000">0</span>
                                 </div>
                                 <h6>Years of <br>Experience</h6>
                             </div>
@@ -100,9 +100,9 @@
                         <div class="number-left">
                             <div class="ot-counter icounter">
                                 <div class="c-number">
-                                    <span class="num" data-to="36" data-time="2000">0</span>
+                                    <span class="num" data-to="12" data-time="2000">0</span>
                                 </div>
-                                <h6>Visited <br>Conferences</h6>
+                                <h6>Awards</h6>
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                         </div>
                         <div class="space-20"></div>
                         <div class="space-3"></div>
-                        
+
                     </div>
                 </div>
                 <div class="space-80"></div>
@@ -137,7 +137,7 @@
                                 <div class="overlay flex-middle">
                                     <div class="inner">
                                         <p> We leverage on our years of professional service delivery to initiate strategic ideas for improved client experience.</p>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="content-box">
@@ -155,7 +155,7 @@
                                 <div class="overlay flex-middle">
                                     <div class="inner">
                                         <p> We consistently adhere to our aim of excellent service delivery.</p>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="content-box">
@@ -173,7 +173,7 @@
                                 <div class="overlay flex-middle">
                                     <div class="inner">
                                         <p> We initiate policies and practices that contribute to the welfare of the society and the health of the natural environment</p>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="content-box">
@@ -198,7 +198,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12 px-lg-0">
                         <div class="ot-heading">
-                            
+
                             <h3 class="main-head">We Take Your Business to the next Level</h3>
                         </div>
                         <div class="space-20"></div>
@@ -246,28 +246,12 @@
                                 <h6 class="title-box">Personalised solutions</h6>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="space-60 d-lg-none"></div>
             </div>
         </section>
-        <section class="cta-main">
-            <div class="container">
-                <div class="space-80"></div>
-                <div class="row align-items-center">
-                    <div class="col-lg-8 mb-5 mb-lg-0">
-                        <h2>Searching for Exceptional Procurement and Consulting Services?</h2>
-                        <p class="text-white">We embrace and celebrate diverse viewpoints to elevate our firm, benefit our clients, and strengthen our team.</p>
-                    </div>
-                    <div class="col-lg-4 text-lg-right">
-                        <div class="ot-button">
-                            <a href="contact.html" class="octf-btn octf-btn-light">get in touch</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="space-80"></div>
-            </div>
-        </section>
+
 </div>
 @endsection

@@ -6,7 +6,7 @@
             <div class="page-header flex-middle page-header-service">
                 <div class="container">
                     <div class="inner flex-middle">
-                        <h1 class="page-title">Procurement And General Services</h1>
+                        <h1 class="page-title">Procurement and General Services</h1>
                         <!-- <ul id="breadcrumbs" class="breadcrumbs none-style">
                             <li><a href="index.html">Home</a></li>
                             <li class="active">Marine Advisory and Consultancy</li>
@@ -20,9 +20,9 @@
                 <div class="space-90"></div>
                 <div class="row">
                     <div class="col-xl-9 col-lg-8 mb-5 mb-lg-0">
-                        <img src="images/service-box6.jpg" alt="" class="rounded-img">
+                        <img src="images/slider/procurement.jpg" alt="" class="rounded-img">
                         <div class="space-40"></div>
-                        <h3>Procurement And General Services</h3>
+                        <h3>Procurement and General Services</h3>
                         <div class="space-5"></div>
                         <p>We use transactional-based model to offer trusted services on provision of goods and products, spanning across various industries; Oil and Gas, Marine, Construction and other related sectors, paying attention to the minute details in machinery parts, drilling consumables, accessories and general procurement required to run an efficient operation. This service allows our clients to:</p>
                         <ul class="mb-0">
@@ -38,10 +38,10 @@
                                 <span class="list-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29.107 29.107"><g>    <g id="c147_full_moon">     <g>         <path d="M14.554,0C6.561,0,0,6.562,0,14.552c0,7.996,6.561,14.555,14.554,14.555c7.996,0,14.553-6.559,14.553-14.555     C29.106,6.562,22.55,0,14.554,0z"></path>      </g>    </g>    <g id="Capa_1_14_"> </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg></span>
                                 <span class="list-text">Achieve value for money</span>
                             </li>
-                           
-                        </ul> 
+
+                        </ul>
                         <div class="space-40"></div>
-                        
+
                         <h5>Our Approach</h5>
                         <div class="space-5"></div>
                         <ul class="mb-0">
@@ -65,10 +65,10 @@
                                 <span class="list-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29.107 29.107"><g>    <g id="c147_full_moon">     <g>         <path d="M14.554,0C6.561,0,0,6.562,0,14.552c0,7.996,6.561,14.555,14.554,14.555c7.996,0,14.553-6.559,14.553-14.555     C29.106,6.562,22.55,0,14.554,0z"></path>      </g>    </g>    <g id="Capa_1_14_"> </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg></span>
                                 <span class="list-text">Assess risks associated with all transactions before initiating procurement process</span>
                             </li>
-                           
-                        </ul> 
+
+                        </ul>
                         <div class="space-40"></div>
-                    
+
                     </div>
                     <div class="col-xl-3 col-lg-4 widget-area">
                         <aside class="widget widget_categories">
@@ -116,28 +116,11 @@
                                 </div>
                             </div>
                         </aside>
-                        
+
                     </div>
                 </div>
                 <div class="space-90"></div>
                 <div class="space-100"></div>
-            </div>
-        </section>
-        <section class="cta-main">
-            <div class="container">
-                <div class="space-80"></div>
-                <div class="row align-items-center">
-                    <div class="col-lg-8 mb-5 mb-lg-0">
-                        <h2>Searching for Exceptional Procurement and Consulting Services?</h2>
-                        <p class="text-white">We embrace and celebrate diverse viewpoints to elevate our firm, benefit our clients, and strengthen our team.</p>
-                    </div>
-                    <div class="col-lg-4 text-lg-right">
-                        <div class="ot-button">
-                            <a href="contact.html" class="octf-btn octf-btn-light">get in touch</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="space-80"></div>
             </div>
         </section>
 </div>
